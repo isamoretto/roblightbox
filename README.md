@@ -19,7 +19,7 @@ Obs: No presente momento, só testei no Chrome.
 &lt;/div&gt;
 </code></pre>
 A tag title na div se tornará o label do botão em questão.
-É importante especificar o width da div do conteúdo, como o exemplo abaixo, para centralizações. Dentro dessa div,
+É importante especificar o width da div do conteúdo, como o exemplo acima, para centralizações. Dentro dessa div,
 coloque todo conteúdo que deseja exibir no lightbox.
 
 * Chame a função da seguinte forma:

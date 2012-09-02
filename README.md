@@ -3,6 +3,8 @@
 A ideia é chegar a um lightbox bem flexível, que atenda tanto galeria de imagens como html para alertas,
 ou até conteúdos carregados via ajax.
 
+Demo: http://rafaelortegabueno.com/roblightbox/
+
 Obs: No presente momento, só testei no Chrome.
 
 ##Como usar:

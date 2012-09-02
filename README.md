@@ -5,7 +5,7 @@ ou até conteúdos carregados via ajax.
 
 Demo: http://rafaelortegabueno.com/roblightbox/
 
-Obs: No presente momento, só testei no Chrome.
+Obs: Testado no Firefox, Chrome e IE9.
 
 ##Como usar:
 * Faça a chamada para o framework jQuery para seu projeto.

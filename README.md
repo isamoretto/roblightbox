@@ -8,7 +8,7 @@ Obs: No presente momento, só testei no Chrome.
 ##Como usar:
 * Faça a chamada para o framework jQuery para seu projeto.
 * Faça a chamada para o plugin roblightbox para seu projeto.
-* Crie quantos botões quiser na página que conterão a função de abrir o lightbox. "Muitos = menos performance".
+* Crie quantos botões quiser na página que conterá a função de abrir o lightbox. "Muitos = menos performance".
 <br>
 <pre><code>
 &lt;div class="lightbox" title="Exemplo"&gt;

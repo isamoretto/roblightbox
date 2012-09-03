@@ -3,12 +3,14 @@
 A ideia é chegar a um lightbox bem flexível, que atenda tanto galeria de imagens como html para alertas,
 ou até conteúdos carregados via ajax.
 
-Obs: No presente momento, só testei no Chrome.
+Demo: http://rafaelortegabueno.com/roblightbox/
+
+Obs: Testado no Firefox, Chrome e IE9.
 
 ##Como usar:
 * Faça a chamada para o framework jQuery para seu projeto.
 * Faça a chamada para o plugin roblightbox para seu projeto.
-* Crie quantos botões quiser na página que conterão a função de abrir o lightbox. "Muitos = menos performance".
+* Crie quantos botões quiser na página que conterá a função de abrir o lightbox. "Muitos = menos performance".
 <br>
 <pre><code>
 &lt;div class="lightbox" title="Exemplo"&gt;
@@ -19,7 +21,7 @@ Obs: No presente momento, só testei no Chrome.
 &lt;/div&gt;
 </code></pre>
 A tag title na div se tornará o label do botão em questão.
-É importante especificar o width da div do conteúdo, como o exemplo abaixo, para centralizações. Dentro dessa div,
+É importante especificar o width da div do conteúdo, como o exemplo acima, para centralizações. Dentro dessa div,
 coloque todo conteúdo que deseja exibir no lightbox.
 
 * Chame a função da seguinte forma:
@@ -63,7 +65,7 @@ Dessa forma funcionará o lightbox da maneira mais simples. É possível configu
             
             
             //Basta colocar um valor para o borderradios, caso queira. Ex: borderRadius:10px
-    				borderRadius:10px,
+    				borderRadius:'10px',
             
             
             //Background-color da moldura.
@@ -80,7 +82,7 @@ Dessa forma funcionará o lightbox da maneira mais simples. É possível configu
             
             //Caso coloque apenas true, será criado um botão com um x, que poderá ser facilmente tratado no css.
             //Caso queira fazer algo personalizado, pode seguir o exemplo:
-            // addBtFechar:{'html':'<button><span>Fechar</span></button>','position','bottom left'}
+            // addBtFechar:{'html':'&lt;button&gt;&lt;span&gt;Fechar&lt;/span&gt;&lt;/button&gt;','position':'bottom left'}
     				addBtFechar:false,
             
             

@@ -138,7 +138,7 @@ robLightbox v1.0
 
 			molduraWidth = parseInt(elemento.parent().find('.content_lightbox').width())-(parseInt(paddingLeft)+parseInt(paddingRight));
 			molduraHeight = parseInt(elemento.parent().find('.content_lightbox').height())-(parseInt(paddingTop)+parseInt(paddingBottom));
-
+			molduraWReal = elemento.parent().find('.content_lightbox').width()+(parseInt(paddingLeft)+parseInt(paddingRight));
 
 			$('body').prepend('<div class="roblightbox_moldura" style="position:fixed !important"></div>');
 			if(options.borderRadius){
@@ -170,7 +170,8 @@ robLightbox v1.0
 				'padding-bottom':paddingBottom+'px',
 				'padding-left':paddingLeft+'px',
 				'margin-left':parseInt(molduraMarginLeft),
-				'margin-top':parseInt(options.marginTop)
+				'margin-top':parseInt(options.marginTop),
+				'width':parseInt(molduraWReal)
 			}).html(elemento.parent().find('.content_lightbox').html()).fadeIn(options.speed);
 
 

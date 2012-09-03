@@ -65,7 +65,7 @@ Dessa forma funcionará o lightbox da maneira mais simples. É possível configu
             
             
             //Basta colocar um valor para o borderradios, caso queira. Ex: borderRadius:10px
-    				borderRadius:10px,
+    				borderRadius:'10px',
             
             
             //Background-color da moldura.

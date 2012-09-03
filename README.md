@@ -82,7 +82,7 @@ Dessa forma funcionará o lightbox da maneira mais simples. É possível configu
             
             //Caso coloque apenas true, será criado um botão com um x, que poderá ser facilmente tratado no css.
             //Caso queira fazer algo personalizado, pode seguir o exemplo:
-            // addBtFechar:{'html':'<button><span>Fechar</span></button>','position','bottom left'}
+            // addBtFechar:{'html':'&lt;button&gt;&lt;span&gt;Fechar&lt;/span&gt;&lt;/button&gt;','position':'bottom left'}
     				addBtFechar:false,
             
             

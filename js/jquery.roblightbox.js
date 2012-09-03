@@ -34,6 +34,8 @@ robLightbox v1.0
 
 		var total = 0;
 
+
+
 		this.each(function(){
 
 			if(options.galeria){
@@ -102,11 +104,18 @@ robLightbox v1.0
 
 		//Função para criar o box do conteúdo
 		function createBoxContent(elemento){
+
+			paddingContent = parseInt(elemento.parent().find('.content_lightbox').children().css('padding-left'))+parseInt(elemento.parent().find('.content_lightbox').children().css('padding-right'));
+
+
 			if(options.overflow){
 				document.documentElement.style.overflow = 'hidden';  // firefox, chrome
 				document.body.scroll = "no";    // ie only
 			}
 			padding = options.padding.split(' ');
+
+
+
 
 			switch(padding.length)
 			{
@@ -138,7 +147,7 @@ robLightbox v1.0
 
 			molduraWidth = parseInt(elemento.parent().find('.content_lightbox').width())-(parseInt(paddingLeft)+parseInt(paddingRight));
 			molduraHeight = parseInt(elemento.parent().find('.content_lightbox').height())-(parseInt(paddingTop)+parseInt(paddingBottom));
-			molduraWReal = elemento.parent().find('.content_lightbox').width()+(parseInt(paddingLeft)+parseInt(paddingRight));
+			molduraWReal = elemento.parent().find('.content_lightbox').width()+parseInt(paddingContent);
 
 			$('body').prepend('<div class="roblightbox_moldura" style="position:fixed !important"></div>');
 			if(options.borderRadius){

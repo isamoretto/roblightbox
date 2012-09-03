@@ -5,7 +5,7 @@ ou até conteúdos carregados via ajax.
 
 Demo: http://rafaelortegabueno.com/roblightbox/
 
-Obs: Testado no Firefox, Chrome e IE9.
+Obs: Testado no Firefox, Chrome e IE9. No IE8 e IE7 também funcionam normalmente, porém sem o borderRadius e boxShadow.
 
 ##Como usar:
 * Faça a chamada para o framework jQuery para seu projeto.

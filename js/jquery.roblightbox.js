@@ -26,7 +26,8 @@ robLightbox v1.0
 
 
 		$(window).load(function(){
-			$('.bt_lightbox').click(function(){
+			$('.bt_lightbox').click(function(e){
+				e.preventDefault();
 				var content = $(this).parent().find('.content_lightbox').html();
 				prepareBackgroundBox($(this));
 			});

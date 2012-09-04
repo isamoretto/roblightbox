@@ -5,12 +5,12 @@ ou até conteúdos carregados via ajax.
 
 Demo: http://rafaelortegabueno.com/roblightbox/
 
-Obs: Testado no Firefox, Chrome e IE9. No IE8 e IE7 também funcionam normalmente, porém sem o borderRadius e boxShadow.
+Obs: Testado no Firefox, Chrome e IE9. No IE8 e IE7 também funcionam normalmente, porém sem o borderRadius, boxShadow.
 
 ##Como usar:
 * Faça a chamada para o framework jQuery para seu projeto.
 * Faça a chamada para o plugin roblightbox para seu projeto.
-* Crie quantos botões quiser na página que conterá a função de abrir o lightbox. "Muitos = menos performance".
+* Crie quantos botões quiser na página que conterá a função de abrir o lightbox.
 <br>
 <pre><code>
 &lt;div class="lightbox" title="Exemplo"&gt;

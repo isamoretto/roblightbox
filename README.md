@@ -20,7 +20,7 @@ Obs: Testado no Firefox, Chrome e IE9. No IE8 e IE7 também funcionam normalment
 		&lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
-A tag title na div se tornará o label do botão em questão.
+O atributo title na div se tornará o label do botão em questão.
 É importante especificar o width da div do conteúdo, como o exemplo acima, para centralizações. Dentro dessa div,
 coloque todo conteúdo que deseja exibir no lightbox.
 
